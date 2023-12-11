@@ -143,3 +143,42 @@ img {
 }
 
 
+/* media quries */
+@media(max-width:1550px){
+    .parent{
+    column-gap: 2rem;
+    align-items: center;
+    }
+}
+
+@media(max-width:850px){
+    .parent{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+
+@media(max-width:550px){
+    .mountain{
+        width: 100%;
+    }
+}
+
+@media(max-width:430px){
+    .bottom-cloud{
+        bottom: 240px;
+    }
+}
+
+
+
+/* 
+@media (max-width: 800px) {
+    .mountain{
+        width: 100%;
+    }
+    .parent{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+} */
